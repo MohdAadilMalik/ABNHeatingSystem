@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - A.B.N Heating System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://5.imimg.com/data5/SELLER/Logo/2024/7/432185545/LU/UJ/YI/41526332/logo-120x120.jpeg" alt="A.B.N Heating System" width="50" height="50" class="d-inline-block align-text-middle rounded-circle me-2">
+                A.B.N Heating System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-3">
+                    <input class="form-control me-2" type="search" placeholder="Search products" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Details Section -->
+    <section class="product-details py-5">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="products.html">Products</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Round Jalebi Heater Coil</li>
+                </ol>
+            </nav>
+
+            <div class="row">
+                <!-- Product Images -->
+                <div class="col-md-6 mb-4">
+                    <div class="product-image-gallery">
+                        <div class="main-image mb-3">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/445206870/YK/ZM/VL/41526332/product-jpeg-250x250.jpeg" class="img-fluid rounded" id="main-product-image" alt="Round Jalebi Heater Coil">
+                        </div>
+                        <div class="image-thumbnails d-flex">
+                            <div class="thumbnail me-2 active" onclick="changeImage(this, 'https://5.imimg.com/data5/SELLER/Default/2024/8/445206870/YK/ZM/VL/41526332/product-jpeg-250x250.jpeg')">
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/445206870/YK/ZM/VL/41526332/product-jpeg-250x250.jpeg" class="img-fluid rounded" alt="Round Jalebi Heater Coil">
+                            </div>
+                            <div class="thumbnail me-2" onclick="changeImage(this, 'https://5.imimg.com/data5/SELLER/Default/2024/8/445206583/SB/TS/BO/41526332/product-jpeg-250x250.jpeg')">
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/445206583/SB/TS/BO/41526332/product-jpeg-250x250.jpeg" class="img-fluid rounded" alt="Round Jalebi Heater Coil">
+                            </div>
+                            <div class="thumbnail me-2" onclick="changeImage(this, 'https://5.imimg.com/data5/SELLER/Default/2024/8/446140546/EW/ZU/SE/41526332/product-jpeg-250x250.jpeg')">
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/446140546/EW/ZU/SE/41526332/product-jpeg-250x250.jpeg" class="img-fluid rounded" alt="Round Jalebi Heater Coil">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="col-md-6">
+                    <h1 class="mb-3">Round Jalebi Heater Coil</h1>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="rating me-2">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half-alt text-warning"></i>
+                        </div>
+                        <span>(4.5/5 based on 28 reviews)</span>
+                    </div>
+                    <h2 class="text-primary mb-4">₹450 / Piece</h2>
+                    <p class="mb-4">Round Jalebi Heater Coil is a high-quality heating element designed for efficient and reliable heating applications. Made from premium stainless steel, it offers excellent durability and consistent performance.</p>
+                    
+                    <!-- Product Specifications -->
+                    <div class="product-specs mb-4">
+                        <h5>Specifications:</h5>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <th>Material</th>
+                                    <td>Stainless Steel</td>
+                                </tr>
+                                <tr>
+                                    <th>Colour</th>
+                                    <td>Black</td>
+                                </tr>
+                                <tr>
+                                    <th>Application</th>
+                                    <td>Heating Coil</td>
+                                </tr>
+                                <tr>
+                                    <th>Power Consumption</th>
+                                    <td>Upto 200 Watts</td>
+                                </tr>
+                                <tr>
+                                    <th>Brand</th>
+                                    <td>Abn</td>
+                                </tr>
+                                <tr>
+                                    <th>Input Voltage</th>
+                                    <td>200 - 220 V</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Size Selection -->
+                    <div class="size-selection mb-4">
+                        <h5>Select Size:</h5>
+                        <div class="btn-group" role="group" aria-label="Size selection">
+                            <input type="radio" class="btn-check" name="size" id="size1" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="size1">12 inch</label>
+                            
+                            <input type="radio" class="btn-check" name="size" id="size2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="size2">18 inch</label>
+                            
+                            <input type="radio" class="btn-check" name="size" id="size3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="size3">24 inch</label>
+                            
+                            <input type="radio" class="btn-check" name="size" id="size4" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="size4">36 inch</label>
+                        </div>
+                    </div>
+
+                    <!-- Quantity Selection -->
+                    <div class="quantity-selection mb-4">
+                        <h5>Quantity:</h5>
+                        <div class="input-group" style="width: 150px;">
+                            <button class="btn btn-outline-secondary" type="button" id="decrease-quantity">-</button>
+                            <input type="number" class="form-control text-center" id="quantity" value="1" min="1">
+                            <button class="btn btn-outline-secondary" type="button" id="increase-quantity">+</button>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-grid gap-2 d-md-flex mb-4">
+                        <button class="btn btn-primary btn-lg flex-grow-1">
+                            <i class="fas fa-shopping-cart me-2"></i> Add to Cart
+                        </button>
+                        <button class="btn btn-success btn-lg flex-grow-1">
+                            <i class="fas fa-bolt me-2"></i> Buy Now
+                        </button>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info p-3 bg-light rounded">
+                        <h5>Need more information?</h5>
+                        <p><i class="fas fa-phone-alt me-2"></i> Call us at: 8048956186</p>
+                        <p><i class="fas fa-envelope me-2"></i> Email: info@abnheatingsystem.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Description Tabs -->
+            <div class="product-tabs mt-5">
+                <ul class="nav nav-tabs" id="productTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="features-tab" data-bs-toggle="tab" data-bs-target="#features" type="button" role="tab" aria-controls="features" aria-selected="false">Features</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+                    </li>
+                </ul>
+                <div class="tab-content p-4 border border-top-0 rounded-bottom" id="productTabsContent">
+                    <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                        <h4>Product Description</h4>
+                        <p>The Round Jalebi Heater Coil is a high-quality heating element designed for various heating applications. It is manufactured using premium stainless steel material that ensures durability and long-lasting performance.</p>
+                        <p>This heating coil is ideal for industrial and commercial applications where reliable and efficient heating is required. The coil design provides even heat distribution and quick heating capabilities.</p>
+                        <p>Our Round Jalebi Heater Coil is available in different sizes to suit various requirements. It operates on 200-220V input voltage and consumes up to 200 watts of power, making it energy-efficient while delivering optimal heating performance.</p>
+                    </div>
+                    <div class="tab-pane fade" id="features" role="tabpanel" aria-labelledby="features-tab">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Made from high-quality stainless steel for durability</li>
+                            <li>Efficient heating performance with even heat distribution</li>
+                            <li>Low power consumption (up to 200 watts)</li>
+                            <li>Compatible with 200-220V input voltage</li>
+                            <li>Available in multiple sizes (12", 18", 24", 36")</li>
+                            <li>Easy installation and maintenance</li>
+                            <li>Long service life</li>
+                            <li>Resistant to corrosion and oxidation</li>
+                            <li>Suitable for various industrial and commercial applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                        <h4>Customer Reviews</h4>
+                        <div class="review-summary mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="display-4 me-3">4.5</div>
+                                <div>
+                                    <div class="rating mb-1">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    </div>
+                                    <p class="mb-0">Based on 28 reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Individual Reviews -->
+                        <div class="review-item mb-4 pb-4 border-bottom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <h5 class="mb-0">Rajesh Kumar</h5>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                    </div>
+                                </div>
+                                <span class="text-muted">2 months ago</span>
+                            </div>
+                            <p>Excellent product! The heating coil works perfectly for my industrial application. The quality is top-notch and it heats up quickly. Very satisfied with the purchase.</p>
+                        </div>
+                        
+                        <div class="review-item mb-4 pb-4 border-bottom">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <h5 class="mb-0">Amit Sharma</h5>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                    </div>
+                                </div>
+                                <span class="text-muted">3 months ago</span>
+                            </div>
+                            <p>Good product with consistent heating performance. The stainless steel material ensures durability. I've been using it for 3 months without any issues.</p>
+                        </div>
+                        
+                        <div class="review-item">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                    <h5 class="mb-0">Priya Patel</h5>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    </div>
+                                </div>
+                                <span class="text-muted">1 month ago</span>
+                            </div>
+                            <p>Very efficient heating coil. It consumes less power than expected while providing excellent heating. The 24-inch size is perfect for my requirements. Highly recommended!</p>
+                        </div>
+                        
+                        <!-- Write a Review Form -->
+                        <div class="write-review mt-5">
+                            <h5>Write a Review</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="reviewerName" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="reviewerName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Rating</label>
+                                    <div class="rating-input">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rating" id="rating5" value="5" checked>
+                                            <label class="form-check-label" for="rating5">5 Stars</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rating" id="rating4" value="4">
+                                            <label class="form-check-label" for="rating4">4 Stars</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rating" id="rating3" value="3">
+                                            <label class="form-check-label" for="rating3">3 Stars</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rating" id="rating2" value="2">
+                                            <label class="form-check-label" for="rating2">2 Stars</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rating" id="rating1" value="1">
+                                            <label class="form-check-label" for="rating1">1 Star</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="reviewText" class="form-label">Your Review</label>
+                                    <textarea class="form-control" id="reviewText" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit Review</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <div class="related-products mt-5">
+                <h3 class="mb-4">Related Products</h3>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card product-card h-100">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/445206583/SB/TS/BO/41526332/product-jpeg-250x250.jpeg" class="card-img-top" alt="Coil heater">
+                            <div class="card-body">
+                                <h5 class="card-title">Coil Heater</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-text text-primary fw-bold">₹1,350 / Piece</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                    </div>
+                                </div>
+                                <a href="product-details.html?id=2850425499088" class="btn btn-primary w-100 mt-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card product-card h-100">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/446140546/EW/ZU/SE/41526332/product-jpeg-250x250.jpeg" class="card-img-top" alt="Round Heater Coil">
+                            <div class="card-body">
+                                <h5 class="card-title">Round Heater Coil</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-text text-primary fw-bold">₹320 / Piece</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    </div>
+                                </div>
+                                <a href="product-details.html?id=24988297497" class="btn btn-primary w-100 mt-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card product-card h-100">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/445206342/OO/GG/CL/41526332/product-jpeg-250x250.jpeg" class="card-img-top" alt="Poultry farm G-Coil heater">
+                            <div class="card-body">
+                                <h5 class="card-title">Poultry Farm G-Coil Heater</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-text text-primary fw-bold">₹375 / Piece</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                    </div>
+                                </div>
+                                <a href="product-details.html?id=25189751397" class="btn btn-primary w-100 mt-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card product-card h-100">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/446140773/QJ/HL/LY/41526332/product-jpeg-250x250.jpeg" class="card-img-top" alt="Poultry Farm Electric Heater">
+                            <div class="card-body">
+                                <h5 class="card-title">Poultry Farm Electric Heater</h5>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="card-text text-primary fw-bold">₹350 / Piece</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                        <i class="far fa-star text-warning"></i>
+                                    </div>
+                                </div>
+                                <a href="product-details.html?id=24988887462" class="btn btn-primary w-100 mt-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>A.B.N Heating System</h5>
+                    <p>H. No. 150, G/F KH .No. 1/1/2, Block-A, Gali No.5,Guru, Nanak Nagar Mustfabad, New Mustafabad, New Delhi-110094, Delhi, India</p>
+                    <p><i class="fas fa-phone-alt me-2"></i> 8048956186</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@abnheatingsystem.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="products.html" class="text-white">Products</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <p>GST Number: 07ESWPK5295M1ZK</p>
+                        <p>Trust Seal Verified</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3 bg-secondary">
+            <div class="text-center">
+                <p>&copy; 2024 A.B.N Heating System. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Image gallery functionality
+        function changeImage(thumbnail, newImageSrc) {
+            // Update main image
+            document.getElementById('main-product-image').src = newImageSrc;
+            
+            // Update active thumbnail
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            thumbnails.forEach(item => {
+                item.classList.remove('active');
+            });
+            thumbnail.classList.add('active');
+        }
+        
+        // Quantity selector functionality
+        document.getElementById('increase-quantity').addEventListener('click', function() {
+            const quantityInput = document.getElementById('quantity');
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+        
+        document.getElementById('decrease-quantity').addEventListener('click', function() {
+            const quantityInput = document.getElementById('quantity');
+            const currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+    </script>
+</body>
+</html>
